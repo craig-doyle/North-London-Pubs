@@ -1,0 +1,116 @@
+<?php
+require("includes/connections.php");
+?>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>North London Pubs DB Loader</title>
+<style type="text/css">
+form {
+	width: 500px;
+}
+</style>
+</head>
+
+<body>
+<form action="insert.php" method="post">
+  Pub Name:
+  <input type="text" name="name">
+  </br>
+  Street Address:
+  <input type="text" name="street">
+  </br>
+  Area:
+  <input type="text" name="area">
+  </br>
+  Postcode:
+  <input type="text" name="postcode">
+  </br>
+  Photo Count:
+  <input type="text" name="photo_count">
+  </br>
+  Longitude:
+  <input type="text" name="lon">
+  </br>
+  Latitude:
+  <input type="text" name="lat">
+  </br>
+  Review Title:
+  <input type="text" name="review_title">
+  </br>
+  Review Body:
+  <textarea rows="10" columns="30" name="review_body"></textarea>
+  </br>
+  Review Time:
+  <input type="datetime" name="review_time">
+  </br>
+  No. of Lagers:
+  <input type="integer" name="lager">
+  </br>
+  No. of Ales:
+  <input type="integer" name="ale">
+  </br>
+  No. of Ciders:
+  <input type="integer" name="cider">
+  </br>
+  Garden?
+  <input type="radio" name="garden" value="1" checked>
+  Yes
+  <input type="radio" name="garden" value="0">
+  No<br>
+  Football?
+   <input type="radio" name="football" value="1" checked>
+  Yes
+  <input type="radio" name="football" value="0">
+  No
+  </br>
+  Rugby?
+   <input type="radio" name="rugby" value="1" checked>
+  Yes
+  <input type="radio" name="rugby" value="0">
+  No
+  </br>
+  Any other sports:
+  <input type="text" name="othersports">
+  </br>
+  Ambience:
+  <select name="ambience">
+   <option value="1">dark</option>
+   <option value="2">slightly gloomy</option>
+   <option value="3">medium</option>
+   <option value="4">well-lit</option>
+   <option value="5">too bright!</option>
+  </select>
+  </br>
+  Jukebox:
+  <input type="radio" name="jukebox" value="1" checked>
+  Yes
+  <input type="radio" name="jukebox" value="0">
+  No
+  </br>
+  Size:
+  <select name="size">
+   <option value="1">tiny</option>
+   <option value="2">small</option>
+   <option value="3">medium</option>
+   <option value="4">large</option>
+   <option value="5">massive</option>
+  </select>
+  </br>
+  Moustache Count:
+  <input type="integer" name="moustaches">
+  </br>
+  Food? 1-5 (TBC)
+  <select name="food">
+   <option value="0">none</option>
+   <option value="1">bar food - cheap</option>
+   <option value="2">bar food - pricey</option>
+   <option value="3">full menu - cheap</option>
+   <option value="4">gastro pub - pricey</option>
+  </select>
+  </br>
+  <input type="submit">
+</form>
+</body>
+</html>

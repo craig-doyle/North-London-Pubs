@@ -1,0 +1,15 @@
+[21-Apr-2013 17:59:29 Europe/London] PHP Fatal error:  Function name must be a string in /home/craigdoy/public_html/northlondonpubs/index.php on line 17
+[21-Apr-2013 17:59:32 Europe/London] PHP Fatal error:  Function name must be a string in /home/craigdoy/public_html/northlondonpubs/index.php on line 17
+[21-Apr-2013 18:00:15 Europe/London] PHP Fatal error:  Function name must be a string in /home/craigdoy/public_html/northlondonpubs/index.php on line 17
+[22-Apr-2013 19:42:07 Europe/London] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, resource given in /home/craigdoy/public_html/northlondonpubs/insert.php on line 40
+[22-Apr-2013 19:42:07 Europe/London] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, resource given in /home/craigdoy/public_html/northlondonpubs/insert.php on line 42
+[22-Apr-2013 19:43:25 Europe/London] PHP Warning:  mysql_query() expects parameter 1 to be string, resource given in /home/craigdoy/public_html/northlondonpubs/insert.php on line 40
+[22-Apr-2013 19:43:25 Europe/London] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, resource given in /home/craigdoy/public_html/northlondonpubs/insert.php on line 42
+[22-Apr-2013 19:43:36 Europe/London] PHP Warning:  mysql_query() expects parameter 1 to be string, resource given in /home/craigdoy/public_html/northlondonpubs/insert.php on line 40
+[22-Apr-2013 19:43:36 Europe/London] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, resource given in /home/craigdoy/public_html/northlondonpubs/insert.php on line 42
+[22-Apr-2013 19:53:22 Europe/London] PHP Warning:  mysql_query() expects parameter 1 to be string, resource given in /home/craigdoy/public_html/northlondonpubs/insert.php on line 39
+[22-Apr-2013 19:57:06 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING in /home/craigdoy/public_html/northlondonpubs/insert.php on line 47
+[22-Apr-2013 20:00:48 Europe/London] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/craigdoy/public_html/northlondonpubs/insert.php on line 46
+[23-Apr-2013 11:31:04 Europe/London] PHP Parse error:  syntax error, unexpected '[' in /home/craigdoy/public_html/northlondonpubs/maps.php on line 110
+[28-Apr-2013 19:01:34 Europe/London] PHP Warning:  json_encode() [<a href='function.json-encode'>function.json-encode</a>]: type is unsupported, encoded as null in /home/craigdoy/public_html/northlondonpubs/quicksearch.php on line 21
+[28-Apr-2013 19:06:08 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, resource given in /home/craigdoy/public_html/northlondonpubs/quicksearch.php on line 21
